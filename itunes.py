@@ -17,3 +17,9 @@ print(json.dumps(data, indent=4, ensure_ascii=False).encode().decode())
 
 # 件数の表示
 print('検索結果：' + str(data['resultCount']) + ' 件')
+print(data['resalts'][0]['collectionName'])
+print(data['resalts'][1]['collectionName'])
+print(data['resalts'][2]['collectionName'])
+print(data['resalts'][3]['collectionName'])
+print(data['resalts'][4]['collectionName'])
+print(data['resalts'][5]['collectionName'])
